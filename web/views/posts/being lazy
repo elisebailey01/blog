@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+      <h3>How to be the best software developer:</h3>
+      <ul style="list-style-type:disc">
+	<li>break down large problems into several smaller ones</li>
+	<li>make a to do list of all the tasks you need to do in order to solve each individual problem</li>
+      </ul>
+	<ul style="list-style-type:circle">
+	<li>this will allow you to leave the problem for a while and then pick up where you left off</li>
+	<li>someone else can then also pick up your work if necessary and know where you are and what needs to be done</li>
+	</ul>
+      <ul style="list-style-type:disc">
+	<li>Be lazy</li>
+      </ul>
+      <ul style="list-style-type:disc">
+	<li>do the minimum amount of work possible to create an excellent piece of work</li>
+	<li>don’t write code that has already be written</li>
+	<li>don’t make your code more complicated than it needs to be</li>
+	<li>don’t write the same code more than once in a program (use functions)</li>
+	<li>however, don’t cut corners or leave your work for other people to do</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}
