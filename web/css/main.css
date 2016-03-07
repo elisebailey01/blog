@@ -2,6 +2,7 @@
   background: #ccfff2;
   color: black;
   padding-bottom: 80px;
+  
 }
 .jumbotron .btn-primary {
   background: #ff0000;
@@ -42,6 +43,7 @@
 .jumbotron .lang-logo img {
   max-width: 100%;
 }
+
 a:link {
     color: #a64dff;
 }
@@ -78,4 +80,10 @@ margin-left: 280px;
 margin-left: 400px;
 }
 
-
+body {
+  background: #fdf1e4
+}
+img {
+ display: table-caption;
+ margin: 0 auto;
+}
