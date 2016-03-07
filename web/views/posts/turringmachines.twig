@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+    <h3>Finite State Machines</h3>
+    <p>Alan Turring was a pretty clever guy and made some super complicated machines that could add and multiply unary numbers. The tapes he used were very long but not actually infinite and there would be no benefit from having the tape infinitly long in both directions.</p>
+    <img src="/image2.jpg" class="displayed" border="0" width=300px>
+    </div>
+  </div>
+</div>
+<form action="#">
+    <p>
+        <label for="name">Name</label>
+        <input id="name" type="text" />
+    </p>
+    <p>
+        <label for="comment">Comment</label>
+        <input id="comment" type="text" />
+    </p>
+    <p class="submit">
+        <input type="submit" value="Submit" />
+    </p>
+</form>
+{% endblock %}
