@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<head>
+    <title>My Blog</title>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+</head>
+<div class="container">
+    <div class="row">
+      <h3> Cambridge Computing Museum </h3>
+      <p> Visiting the computing museum was very interesting and I learnt more about how computers have evolved over the years. We also got to play some super retro games and find our houses on a map program on a floppy disk that ran on a computer from the 80s.</p>
+      <img src="image1.JPG" class="displayed" border="0" width=300px>
+      <figcaption>One of the first Apple computers taken with an iPhone 6s
+      </figcaption>
+    </div>
+  </div>
+</div>
+<form action="#">
+    <p>
+        <label for="name">Name</label>
+        <input id="name" type="text" />
+    </p>
+    <p>
+        <label for="comment">Comment</label>
+        <input id="comment" type="text" />
+    </p>
+    <p class="submit">
+        <input type="submit" value="Submit" />
+    </p>
+</form>
+{% endblock %}
