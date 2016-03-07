@@ -42,6 +42,21 @@
 .jumbotron .lang-logo img {
   max-width: 100%;
 }
+a:link {
+    color: #cc99ff;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: #8c1aff;
+}
+
+a:active {
+    color: blue;
+}
 .comments {
   margin: auto;
   left: 200px:
