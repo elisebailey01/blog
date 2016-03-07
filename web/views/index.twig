@@ -1,4 +1,3 @@
-
 {% extends "layout.html" %}
 
 {% block content %}
@@ -20,16 +19,19 @@
   </div>
 </div>
 
-<div id="comments">
-    <form method="post">
-      Name: <input type='text' name='name' id='name' /><br />
-
-      Comment:<br />
-      <textarea name='comment' id='comment'></textarea><br />
-
-      <input type='hidden' name='articleid' id='articleid' 	value='<? echo $_GET["id"]; ?>' />
-
-      <input type='submit' value='Submit' />  
-    </form>
- </div>
+<div class="comments">
+   <form action="#">
+    <p>
+        <label for="name">Name</label>
+        <input id="name" type="text" />
+    </p>
+    <p>
+        <label for="commetn">Comment</label>
+        <input id="comment" type="text" />
+    </p>
+    <p class="submit">
+        <input type="submit" value="Submit" />
+    </p>
+  </form>
+</div>
 {% endblock %}
